@@ -8,6 +8,8 @@ import org.springframework.context.ConfigurableApplicationContext;
 public class Application {
 
 private Map<String,Object> cache = new HashMap<String,Object>();
+private static ginal string REST_URL="https://www.equifax.com/getScores"
+
 
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
