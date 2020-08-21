@@ -7,7 +7,7 @@ import org.springframework.context.ConfigurableApplicationContext;
 @SpringBootApplication
 public class Application {
 
-private Map<String ,Object> cache = new HashMap<String,Object>();
+private Map<String,Object> cache = new HashMap<String,Object>();
 
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
@@ -26,7 +26,7 @@ private Map<String ,Object> cache = new HashMap<String,Object>();
 
  }
 //HIS - 301 changes
-public void toloaddatToCash() {
+public void loaddatToCash() {
 //logic
 }
 
