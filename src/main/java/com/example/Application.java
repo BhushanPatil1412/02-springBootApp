@@ -7,6 +7,9 @@ import org.springframework.context.ConfigurableApplicationContext;
 @SpringBootApplication
 public class Application {
 
+
+private static ginal string REST_URL="https://www.equifax.com/getScores"
+
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
 		//HIS 134
