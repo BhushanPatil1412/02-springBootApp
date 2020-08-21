@@ -16,4 +16,12 @@ public class Application {
 	
 	}
 
+
+//HIS-200 Related Changes
+        public void doProcess() {
+  	//logic go here
+	syso("Do Process");
+
+ }
+
 }
